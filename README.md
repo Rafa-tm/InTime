@@ -1,2 +1,2 @@
 # InTime
- Projeto desenvolvido a partir do curso Alura de JavaScript para manipulação do DOM
+ Projeto em JavaScript desenvolvido com conhecimentos do Cuso Alura de JS para manipulção do DOM
