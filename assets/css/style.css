@@ -1,0 +1,134 @@
+body {
+  background: url(../imagens/pexels-stephan-müller-753875.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app {
+  align-items: center;
+  backdrop-filter: blur(20px);
+  display: flex;
+  height: 5.5rem;
+  justify-content: center;
+}
+
+.app__titulo {
+  color: #fdfdfd;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.8rem;
+}
+
+.app__formulario {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 5%;
+  width: 60%;
+}
+
+.app__formulario--entrada {
+  background: #00000035;
+  border: none;
+  border-radius: 10px;
+  border-bottom: 2px solid #fdfdfd;
+  color: #fdfdfd;
+  width: 60%;
+  height: 1.8rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.app__formulario--entrada:focus {
+  background: transparent;
+  border-radius: 10px;
+  color: #fdfdfd;
+  width: 60%;
+  height: 1.8rem;
+  padding: 0.5rem 0.5rem;
+  outline-style: solid;
+  outline-color: #fdfdfd;
+  outline-width: 2px;
+}
+
+.app__formulario--data {
+  background: #00000035;
+  border-radius: 10px;
+  color: #fdfdfd;
+  border: none;
+  height: 1.8rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.app__botao {
+  background: #00000035;
+  border-radius: 10px;
+  border-style: none;
+  color: #fdfdfd;
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0.85rem 3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.lista__data {
+  backdrop-filter: blur(20px);
+  margin-bottom: 0.5rem;
+  border-radius: 15px;
+}
+
+.lista {
+  width: 70%;
+  list-style: none;
+}
+
+.tarefa {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+.tarefa--concluida {
+  background-color: #000000;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  opacity: 20%;
+}
+
+.tarefa__conteudo {
+  color: #fdfdfd;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.tarefa--concluida .tarefa__conteudo {
+  text-decoration: line-through;
+}
+
+.tarefa__conteudo--data {
+  border-bottom: none;
+  color: #fdfdfd;
+  display: flex;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.25rem;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0.5rem 1.5rem;
+}
+
+.tarefa__botao {
+  background-color: #fdfdfd30;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border-style: none;
+  color: #fdfdfd;
+  text-transform: uppercase;
+  padding: 0.5rem 0.5rem;
+  margin-left: 1rem;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=BioRhyme&amp;family=Space+Mono&amp;display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <title>InTime</title>
+  </head>
+  <body>
+    <header class="app">
+      <h1 class="app__titulo">InTime</h1>
+      <form action="" class="app__formulario">
+        <input
+          type="text"
+          placeholder="Digite aqui sua tarefa"
+          class="app__formulario--entrada"
+          data-form-input
+        />
+        <input
+          type="datetime-local"
+          class="app__formulario--data"
+          data-form-date
+        />
+        <button class="app__botao" data-form-button>Adicionar</button>
+      </form>
+    </header>
+    <section class="container">
+      <ul class="lista" data-list></ul>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
